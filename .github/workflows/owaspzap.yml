@@ -10,7 +10,7 @@ jobs:
         with:
           ref: master
       - name: Action Full Scan
-        uses: zaproxy/action-full-scan@v0.3.0
+        uses: zaproxy/action-full-scan@v0.10.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           docker_name: owasp/zap2docker-stable
